@@ -1,12 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Form from './form';
+import Navbar from './navbar';
+import Sidebar from './sidebar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+       <Sidebar />
+       <div className='barform'>
+            <Navbar />
+            <Form />
+       </div>
     </div>
   );
 }
