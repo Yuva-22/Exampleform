@@ -1,4 +1,56 @@
 .Navbar
 {
-    border: 1px solid black;
+   display:flex;
+   gap:900px;
+   
+}
+#searchbar
+{
+    border: none;
+    border-style: none;
+    height:30px;
+    margin-left: 20px;
+    /*flex:1;*/
+}
+.search input:focus{
+    border:none;
+    outline: 0;
+}
+.searchicon
+{
+    margin-top:8px;
+}
+.search
+{
+    border: 2px solid black;
+    border-radius: 25px;
+    padding-right:10px;
+    display: inline-flex;
+    vertical-align: middle;
+    max-height: 35px;
+}
+.othercomponents .icon
+{
+    margin-top:8px; 
+
+}
+.othercomponents
+{
+    display: inline-flex;
+    vertical-align: middle;
+    gap:30px;
+}
+@media only screen and (max-width: 950px) {
+    .Navbar{
+        display:flex;
+        gap:250px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Navbar{
+        display:flex;
+        gap:20px;
+    }
 }

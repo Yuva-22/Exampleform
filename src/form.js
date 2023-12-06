@@ -4,7 +4,7 @@ import './form.css';
 function form() {
   return (
     <div className='form'>
-        <h1>Employee form</h1>
+        <h1>Home page</h1>
     </div>
   );
 }

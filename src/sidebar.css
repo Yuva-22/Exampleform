@@ -67,7 +67,6 @@ hr
 
 @media only screen and (max-width: 600px) {
     .Sidebar{
-      background-color: lightblue;
       flex:2;
     }
   }
