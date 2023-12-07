@@ -1,0 +1,12 @@
+.home
+{
+    display:flex;
+    gap:10px;
+}
+.barform
+{
+    flex:5;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
